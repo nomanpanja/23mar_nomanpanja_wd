@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question10</title>
+</head>
+<body>
+    <h1>10 : How can we club two or more rows or columns into a single row or column in an HTML table?</h1>
+    <p>- We can merge two or more rows through rowspan attribute and for merging two or more columns we can use colspan attribute.</p>
+    <style>
+        table,tr,th,td {
+           border:1px solid black;
+        }
+     </style>
+  <body>
+     <h2>Tables in HTML</h2>
+     <table style="width: 100%">
+        <tr>
+           <th >First Name </th>
+           <th>Last Name</th>
+           <th>Job role</th>
+        </tr>
+        <tr>
+           <td colspan="2" >Tharun chandra</td>
+           <td >Content writer</td>
+        </tr>
+        <tr>
+           <td colspan="2">Akshaj Vank</td>
+           <td >Content writer</td>
+        </tr>
+     </table><br>
+     <style>
+        table,tr,th,td {
+           border:1px solid black;
+        }
+     </style>
+  <body>
+     <h2>Tables in HTML</h2>
+     <table style="width: 100%">
+        <tr>
+           <th >First Name </th>
+           <th>Job role</th>
+        </tr>
+        <tr>
+           <td >Tharun</td>
+           <td rowspan="2">Content writer</td>
+        </tr>
+        <tr>
+           <td >Akshaj</td>
+        </tr>
+     </table>
+</body>
+</html>
